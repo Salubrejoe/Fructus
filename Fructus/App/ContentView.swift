@@ -11,6 +11,8 @@ struct ContentView: View {
   // MARK: - PROPERTIES
   var fruits: [Fruit] = fruitsData
   
+  @State private var isShowingSetting = false
+  
   
   // MARK: - BODY
   var body: some View {
@@ -26,9 +28,26 @@ struct ContentView: View {
         }
       }//: LIST
       .navigationBarTitle("Fruits")
+      .toolbar {
+        Button {
+          isShowingSetting = true
+        } label: {
+          Image(systemName: "slider.horizontal.3")
+            .fontWeight(.heavy)
+        }
+        .padding()
+        .sheet(isPresented: $isShowingSetting) {
+          Settings()
+        }
+      }
+      
+      
+      
+      
     }//: NVIEW
   }
 }
+
 
 
 
@@ -38,5 +57,6 @@ struct ContentView_Previews: PreviewProvider {
     ContentView()
   }
 }
+
 
 

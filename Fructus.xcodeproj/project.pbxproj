@@ -21,6 +21,7 @@
 		7CAA01D229BB461200768E94 /* DetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA01D129BB461200768E94 /* DetailHeader.swift */; };
 		7CAA01D429BB47BF00768E94 /* SourceLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA01D329BB47BF00768E94 /* SourceLink.swift */; };
 		7CAA01D629BB526000768E94 /* Nutrients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA01D529BB526000768E94 /* Nutrients.swift */; };
+		7CAA01D829BB57CC00768E94 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA01D729BB57CC00768E94 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		7CAA01D129BB461200768E94 /* DetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeader.swift; sourceTree = "<group>"; };
 		7CAA01D329BB47BF00768E94 /* SourceLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLink.swift; sourceTree = "<group>"; };
 		7CAA01D529BB526000768E94 /* Nutrients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrients.swift; sourceTree = "<group>"; };
+		7CAA01D729BB57CC00768E94 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				7CAA01C529BA032500768E94 /* Onboarding.swift */,
 				7CAA01B229B9F84A00768E94 /* ContentView.swift */,
 				7CAA01CF29BB41DF00768E94 /* FruitDetail.swift */,
+				7CAA01D729BB57CC00768E94 /* Settings.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			files = (
 				7CAA01CC29BA392800768E94 /* FruitData.swift in Sources */,
 				7CAA01B329B9F84A00768E94 /* ContentView.swift in Sources */,
+				7CAA01D829BB57CC00768E94 /* Settings.swift in Sources */,
 				7CAA01C229B9FC1900768E94 /* FruitCard.swift in Sources */,
 				7CAA01D229BB461200768E94 /* DetailHeader.swift in Sources */,
 				7CAA01D429BB47BF00768E94 /* SourceLink.swift in Sources */,
